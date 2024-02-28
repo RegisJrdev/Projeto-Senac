@@ -1,0 +1,247 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.page1-top {
+    width: 100%;
+    height: 6rem;
+    background: #861312;
+    color: #fff;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-page1{
+    width: 45rem;
+    height: 45rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+ 
+    margin: 20rem auto ;
+
+    background: #861312;
+
+    border-radius: 2rem;
+    padding: 4rem;
+}
+
+#image-firstt-page  {
+    width: 20rem;
+
+    border-radius: 0.5rem;
+}
+
+#first-page {
+    display: flex;
+
+    flex-direction: column;
+    gap: 1.9rem;
+    margin-top: 4rem;
+}
+
+.input-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+
+.input-wrapper-first input {
+    background: #000;
+    color: #fff;
+    
+    height: 5.5rem;
+    width: 100%;
+    
+    border-radius: 1rem;
+    border: none;
+    
+    padding: 0 2rem;
+    
+}
+
+input::placeholder {
+    font-size: 1.5rem;
+    color: #fff;
+    font-weight: bold;
+}
+
+label {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+} 
+
+.input-wrapper-first #button {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+ #button {
+    width: 10rem;
+    margin-top: 2rem;
+
+    cursor: pointer;
+
+    color: #fff;
+    font-weight: bold;
+    
+}
+
+#button:hover {
+    color: #861312 ;
+}    
+
+
+
+footer {
+
+    height: 6rem;
+    width: 100%;
+    bottom: 0;
+    position: relative;
+
+    background: #000;
+    color: #fff;
+    font-size: 1.4rem ;
+    font-weight: bold;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+
+
+/* Estilização Segunda página */
+
+nav {
+    width: 92%;
+    margin: auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: 14rem;
+    padding: 3rem 2rem 2rem 2rem;
+
+    border-bottom: 3px solid #000;
+}
+
+nav button {
+    background: #861312;
+
+    color: #fff;
+    font-size: 1.4rem;
+    font-weight: bold;
+
+    width: 8rem;
+    height: 3.5rem;
+    border: none;
+
+    cursor: pointer;
+}
+
+nav img {
+    width: 18rem;
+}
+
+nav button:hover {
+    color: #861312;
+}
+
+.box {
+    width: 60rem;
+    height: 35rem;
+    border-radius: 1.5rem;
+
+    background: #861312;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+form {
+    display: flex;
+    flex-direction: column;   
+    justify-content: center;
+    align-items: center;
+
+    gap: 1rem;
+
+}
+
+input {
+    width: 50rem;
+    height: 3rem;
+
+    font-size: 1.4rem;
+    font-family: "Poppins", sans-serif;
+    padding: 1rem;
+
+    border: none;
+    border-radius: 0.5rem;
+}
+
+textarea {
+    width: 50rem;
+
+    font-size: 1.4rem;
+    font-family: "Poppins", sans-serif;
+
+    padding: 1rem;
+
+    border: none;
+    border-radius: 0.5rem;
+}
+
+img {
+    width: 40%;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: end;
+
+    gap: 20rem;
+}
+
+    footer {
+        background: #000;
+        width: 100%;
+        height: 5rem;
+        position: absolute;
+
+        color: #fff;
+        font-size: 1.4rem;
+        font-weight: bold;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5rem;
+
+        bottom: 0;
+    }
