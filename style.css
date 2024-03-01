@@ -66,7 +66,7 @@ body {
     color: #fff;
     
     height: 5.5rem;
-    width: 100%;
+    width: 37rem;
     
     border-radius: 1rem;
     border: none;
@@ -257,23 +257,38 @@ table {
     width: 100%;
     margin-top: 1rem;
 
-    border-spacing: 1rem;
+    border-spacing: 1.2rem;
 }
 
 table, th, tr {
-    height: 5rem;
+    height: 8rem;
     text-align: center;
     
     font-size: 1.4rem;
 }
 
 th {
+    font-size: 1.5rem;
     background: #861312;
     color: #fff;
+
+    padding: 1rem;
 }
 
 tr {
     background: #b9b9b9;
 }
+
+.first-cel {
+    background: #838383;
+}
+
+.second-cel {
+    width: 110rem;
+
+    padding-inline: 5rem;
+    text-align: justify;
+}
+
 
 
